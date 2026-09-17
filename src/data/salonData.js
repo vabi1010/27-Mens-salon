@@ -1,0 +1,15 @@
+export const salon = {
+  name: '27 Men\'s Salon', shortName: '27', tagline: 'The modern gentleman, redefined.',
+  description: 'A considered grooming experience for men who care about the details. Expert cuts, considered style, and a quiet moment to reset.',
+  phone: '+91 98765 43210', phoneHref: 'tel:+919876543210', whatsappHref: 'https://wa.me/919876543210', instagramHref: 'https://instagram.com/27menssalon',
+  address: '14, Linking Road, Bandra West, Mumbai 400050', hours: 'Mon - Sun, 10:00 AM - 9:00 PM', bookingHref: '#appointment', mapHref: 'https://maps.google.com/?q=Linking+Road+Bandra+West+Mumbai',
+  heroImage: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1800&q=85',
+  aboutImage: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85',
+  gallery: ['https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=85', 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85', 'https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=900&q=85', 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85'],
+  services: [{ number: '01', name: 'The Signature Cut', detail: 'Consultation, precision cut, hot towel finish', price: 'Rs 850' }, { number: '02', name: 'Beard Architecture', detail: 'Shape, line-up, warm lather and conditioning', price: 'Rs 550' }, { number: '03', name: 'The Full Reset', detail: 'Cut, beard design, wash and restorative ritual', price: 'Rs 1,350' }],
+  pricing: [{ name: 'Classic Cut', detail: 'Cut & finish', price: 'Rs 650' }, { name: 'Skin Fade', detail: 'Precision fade & finish', price: 'Rs 850' }, { name: 'Beard Sculpt', detail: 'Shape, trim & hot towel', price: 'Rs 550' }, { name: 'Head Massage', detail: '15 min restorative massage', price: 'Rs 350' }],
+  team: [{ name: 'Rahul Mehta', role: 'Master Barber', image: 'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=700&q=85' }, { name: 'Arjun Rao', role: 'Style Director', image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85' }, { name: 'Karan Singh', role: 'Grooming Specialist', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85' }],
+  testimonials: [{ quote: 'The kind of place you find once and never stop recommending. The attention to detail is unmatched.', name: 'Vikram S.', meta: 'Regular since 2022' }, { quote: 'From the welcome to the final mirror check, every part of the experience feels intentional.', name: 'Aarav K.', meta: 'Verified guest' }, { quote: 'Finally, a salon that understands a great haircut is about how you feel walking out.', name: 'Rohan M.', meta: 'Regular since 2021' }],
+}
+
+export const navigation = [{ label: 'About', href: '#about' }, { label: 'Services', href: '#services' }, { label: 'The space', href: '#gallery' }, { label: 'Contact', href: '#contact' }]
