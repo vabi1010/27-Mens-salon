@@ -1,8 +1,9 @@
 export const salon = {
-  name: '27 Men\'s Salon', shortName: '27', tagline: 'The modern gentleman, redefined.',
+  name: '27 Men\'s Salon', shortName: '27', category: 'Hair salon', city: 'Pune, Maharashtra', tagline: 'The modern gentleman, redefined.',
   description: 'A considered grooming experience for men who care about the details. Expert cuts, considered style, and a quiet moment to reset.',
-  phone: '+91 98765 43210', phoneHref: 'tel:+919876543210', whatsappHref: 'https://wa.me/919876543210', instagramHref: 'https://instagram.com/27menssalon',
-  address: '14, Linking Road, Bandra West, Mumbai 400050', hours: 'Mon - Sun, 10:00 AM - 9:00 PM', bookingHref: '#appointment', mapHref: 'https://maps.google.com/?q=Linking+Road+Bandra+West+Mumbai',
+  rating: '4.3', reviewCount: '156', googleReviewsUrl: 'https://www.google.com/search?q=27+men%27s+salon+pune+photos',
+  phone: '084120 84658', phoneHref: 'tel:+918412084658', whatsappHref: 'https://wa.me/918412084658', instagramHref: 'https://instagram.com/27menssalon',
+  address: 'Shop No 10, Narhe Gaon Rd, Bhumkar Nagar, Mokarwadi, Narhe, Pune, Maharashtra 411041', hours: 'Open daily - closes 10:00 PM', bookingHref: '#appointment', mapHref: 'https://www.google.com/maps/search/?api=1&query=Shop+No+10%2C+Narhe+Gaon+Rd%2C+Bhumkar+Nagar%2C+Mokarwadi%2C+Narhe%2C+Pune%2C+Maharashtra+411041',
   heroImage: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1800&q=85',
   aboutImage: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1200&q=85',
   gallery: ['https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=85', 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=85', 'https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=900&q=85', 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85'],
